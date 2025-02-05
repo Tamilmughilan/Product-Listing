@@ -20,7 +20,8 @@ This is a product listing app built with Flutter. It allows users to view a list
 
 ### Video Demo
 
-[![Watch the video](products/screenshots/video_thumbnail.png)](products/screenshots/demo_video.mp4)
+Watch the demo video [here](https://www.youtube.com/watch?v=EbFmv258WWI).
+
 
 ---
 
