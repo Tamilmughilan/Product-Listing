@@ -10,6 +10,20 @@ This is a product listing app built with Flutter. It allows users to view a list
 - UI with gradient background and custom search bar.
 - BLoC pattern for state management.
 
+## Screenshots and Video Demo
+
+### Screenshots
+
+| Product Listing View | Search Functionality | Filter by Price Range |
+|----------------------|----------------------|-----------------------|
+| ![Product Listing](products/screenshots/product_listing.png) | ![Search](products/screenshots/search.png) | ![Filter](products/screenshots/filter.png) |
+
+### Video Demo
+
+[![Watch the video](products/screenshots/video_thumbnail.png)](products/screenshots/demo_video.mp4)
+
+---
+
 ## Project Structure
 
 - `lib/`
