@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         BlocProvider(
           create: (context) => FilterBloc(
             productBloc:
-                context.read<ProductBloc>(), // Pass ProductBloc instance
+                context.read<ProductBloc>(), 
           ),
         ),
         BlocProvider(create: (context) => ThemeBloc()),

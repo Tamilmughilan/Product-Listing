@@ -75,8 +75,6 @@ class HomeScreen extends StatelessWidget {
                                   .contains(productState.searchQuery.toLowerCase()))
                               .toList();
                         }
-
-                        // Apply price filter if FilterApplied state is active
                         if (filterState is FilterApplied) {
                           displayedProducts = displayedProducts
                               .where((product) =>

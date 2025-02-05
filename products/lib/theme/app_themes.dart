@@ -3,28 +3,28 @@ import 'package:flutter/material.dart';
 class AppThemes {
   static final lightTheme = ThemeData(
     brightness: Brightness.light,
-    scaffoldBackgroundColor: Colors.transparent, // Use transparent to show the gradient
+    scaffoldBackgroundColor: Colors.transparent, 
     primarySwatch: Colors.blue,
     appBarTheme: const AppBarTheme(
       backgroundColor: Color.fromARGB(255, 190, 136, 201),
       foregroundColor: Colors.white,
     ),
     colorScheme: const ColorScheme.light(
-      primary: Color(0xFF007AFF), // Soft blue
-      secondary: Color(0xFFFFA500), // Warm orange
+      primary: Color(0xFF007AFF),
+      secondary: Color(0xFFFFA500), 
     ),
   );
 
   static final darkTheme = ThemeData(
     brightness: Brightness.dark,
-    scaffoldBackgroundColor: Colors.transparent, // Use transparent to show the gradient
+    scaffoldBackgroundColor: Colors.transparent, 
     appBarTheme: const AppBarTheme(
       backgroundColor: Color.fromARGB(255, 45, 2, 53),
       foregroundColor: Colors.white,
     ),
     colorScheme: const ColorScheme.dark(
-      primary: Color(0xFF6A5ACD), // Elegant slate blue
-      secondary: Color(0xFFFFC107), // Rich golden amber
+      primary: Color(0xFF6A5ACD), 
+      secondary: Color(0xFFFFC107), 
     ),
   );
 }
@@ -42,12 +42,12 @@ class GradientBackground extends StatelessWidget {
         gradient: LinearGradient(
           colors: isLightTheme
               ? [
-                  const Color.fromARGB(255, 228, 210, 233), // Light gradient start
-                  const Color.fromARGB(255, 190, 136, 201), // Light gradient end
+                  const Color.fromARGB(255, 228, 210, 233), 
+                  const Color.fromARGB(255, 190, 136, 201), 
                 ]
               : [
-                  const Color.fromARGB(255, 48, 9, 61), // Dark gradient start
-                  const Color.fromARGB(255, 45, 2, 53), // Dark gradient end
+                  const Color.fromARGB(255, 48, 9, 61), 
+                  const Color.fromARGB(255, 45, 2, 53),
                 ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,

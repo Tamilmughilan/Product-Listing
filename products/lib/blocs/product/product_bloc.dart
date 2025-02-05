@@ -7,12 +7,12 @@ part 'product_state.dart';
 
 class ProductBloc extends Bloc<ProductEvent, ProductState> {
   final ProductRepository productRepository;
-  List<Product> _allProducts = []; // Store all products
+  List<Product> _allProducts = []; 
 
   ProductBloc({required this.productRepository}) : super(ProductInitial()) {
     on<FetchProducts>(_onFetchProducts);
     on<SearchProducts>(_onSearchProducts);
-    on<ApplyPriceFilter>(_onApplyPriceFilter); // Updated event for filtering
+    on<ApplyPriceFilter>(_onApplyPriceFilter); 
   }
 
   Future<void> _onFetchProducts(
